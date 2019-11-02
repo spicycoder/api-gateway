@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Domain</name>
+    </assembly>
+    <members>
+        <member name="T:Domain.Models.Product">
+            <summary>
+            Defines the <see cref="T:Domain.Models.Product" />
+            </summary>
+        </member>
+        <member name="P:Domain.Models.Product.Id">
+            <summary>
+            Gets or sets the Id
+            </summary>
+        </member>
+        <member name="P:Domain.Models.Product.Name">
+            <summary>
+            Gets or sets the Name
+            </summary>
+        </member>
+        <member name="P:Domain.Models.Product.Price">
+            <summary>
+            Gets or sets the Price
+            </summary>
+        </member>
+        <member name="M:Domain.Models.Product.GetProducts">
+            <summary>
+            The GetProducts
+            </summary>
+            <returns>The <see cref="T:System.Collections.Generic.IEnumerable`1"/></returns>
+        </member>
+        <member name="T:Domain.Models.Report">
+            <summary>
+            Defines the <see cref="T:Domain.Models.Report" />
+            </summary>
+        </member>
+        <member name="P:Domain.Models.Report.Product">
+            <summary>
+            Gets or sets the Product
+            </summary>
+        </member>
+        <member name="P:Domain.Models.Report.Quantity">
+            <summary>
+            Gets or sets the Quantity
+            </summary>
+        </member>
+        <member name="P:Domain.Models.Report.Sales">
+            <summary>
+            Gets or sets the Sales
+            </summary>
+        </member>
+        <member name="M:Domain.Models.Report.GetReports">
+            <summary>
+            The GetReports
+            </summary>
+            <returns>The <see cref="T:System.Collections.Generic.IEnumerable`1"/></returns>
+        </member>
+    </members>
+</doc>

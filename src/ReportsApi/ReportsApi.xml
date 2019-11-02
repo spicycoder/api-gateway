@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ReportsApi</name>
+    </assembly>
+    <members>
+        <member name="T:ReportsApi.Controllers.ReportsController">
+            <summary>
+            Defines the <see cref="T:ReportsApi.Controllers.ReportsController" />
+            </summary>
+        </member>
+        <member name="M:ReportsApi.Controllers.ReportsController.GetReports">
+            <summary>
+            The GetReports
+            </summary>
+            <returns>The <see cref="!:ActionResult&lt;IEnumerable&lt;Report&gt;&gt;"/></returns>
+        </member>
+        <member name="T:ReportsApi.Program">
+            <summary>
+            Defines the <see cref="T:ReportsApi.Program" />
+            </summary>
+        </member>
+        <member name="M:ReportsApi.Program.Main(System.String[])">
+            <summary>
+            The Main
+            </summary>
+            <param name="args">The args<see cref="!:string[]"/></param>
+        </member>
+        <member name="M:ReportsApi.Program.CreateHostBuilder(System.String[])">
+            <summary>
+            The CreateHostBuilder
+            </summary>
+            <param name="args">The args<see cref="!:string[]"/></param>
+            <returns>The <see cref="T:Microsoft.Extensions.Hosting.IHostBuilder"/></returns>
+        </member>
+        <member name="T:ReportsApi.Startup">
+            <summary>
+            Defines the <see cref="T:ReportsApi.Startup" />
+            </summary>
+        </member>
+        <member name="M:ReportsApi.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Initializes a new instance of the <see cref="T:ReportsApi.Startup"/> class.
+            </summary>
+            <param name="configuration">The configuration<see cref="T:Microsoft.Extensions.Configuration.IConfiguration"/></param>
+        </member>
+        <member name="P:ReportsApi.Startup.Configuration">
+            <summary>
+            Gets the Configuration
+            </summary>
+        </member>
+        <member name="M:ReportsApi.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            The ConfigureServices
+            </summary>
+            <param name="services">The services<see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection"/></param>
+        </member>
+        <member name="M:ReportsApi.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            The Configure
+            </summary>
+            <param name="app">The app<see cref="T:Microsoft.AspNetCore.Builder.IApplicationBuilder"/></param>
+            <param name="env">The env<see cref="T:Microsoft.AspNetCore.Hosting.IWebHostEnvironment"/></param>
+        </member>
+    </members>
+</doc>
